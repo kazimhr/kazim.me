@@ -1,0 +1,173 @@
+/*Global*/
+
+*{
+  box-sizing: border-box;
+}
+
+.container-fluid{
+	max-width: 85%;
+}
+
+/*Background Img*/
+
+.bg-img{
+  background-image: url('../img/bg.jpg');
+  background-size: 100% 100%;
+  padding-bottom: 25%;
+  padding-top: 0.5%;
+}
+
+/*Navbar*/
+
+.navbar{
+	border-bottom: 1px solid #626262;
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+  font-family:'Poppins', sans-serif;
+  font-size: 95%;
+}
+
+/*Name*/
+
+.myname{
+	margin-top: 30%;
+
+}
+
+.name{
+	font-family: 'Montserrat-Black', sans-serif;
+	font-size: 500%;
+	color: white;
+	padding-left: 1%;
+	font-weight: bolder;
+
+}
+
+.from{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	padding-left: 1.5%;
+	font-weight: bolder;
+}
+
+/*About me*/
+
+.Abt-head{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 3em;
+}
+
+.Abt-subhead{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+}
+
+.Abt-para{
+
+}
+
+.kaza-pic{
+	width: 60%;
+	margin-left: 20%;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #E6E6FA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.5;
+}
+
+.cont:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  width: 60%;
+  margin-left: 20%;
+}
+
+
+/*Media Quries*/
+
+@media screen and (max-width: 990px){
+
+	.Abt-head{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 3em;
+	text-align: center;
+	}
+
+	.Abt-subhead{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	}
+
+	.Abt-para{
+		text-align: center;
+	}
+
+	.kaza-pic{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 5%;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+	}
+
+	nav.navbar {
+    background: #626262;
+  	}
+
+}
+
+@media screen and (max-width: 620px){
+
+	.bg-img{
+ 	background-size: 0% 0%;
+ 	background-color: #626262;
+  	padding-bottom: 25%;
+  	padding-top: 0.5%;
+  	border-bottom: 1px solid black;
+
+	}
+
+	.name{
+	font-family: 'Montserrat-Black', sans-serif;
+	font-size: 250%;
+	color: black;
+	padding-left: 1%;
+	font-weight: bolder;
+
+	}
+
+.from{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	padding-left: 1.5%;
+	font-weight: bolder;
+	}
+
+}
