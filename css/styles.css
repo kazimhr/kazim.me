@@ -163,11 +163,15 @@
 
 	}
 
-.from{
+	.from{
 	font-family: 'Montserrat', sans-serif;
 	color: black;
 	padding-left: 1.5%;
 	font-weight: bolder;
 	}
+	
+	nav.navbar {
+   	background: black;
+  	}
 
 }
