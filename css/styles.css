@@ -19,10 +19,6 @@
 
 /*Navbar*/
 
-.navbar{
-	border-bottom: 1px solid #626262;
-}
-
 .navbar-nav > li{
   padding-left:30px;
   padding-right:30px;
@@ -137,27 +133,38 @@
 	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
 	}
 
-	nav.navbar {
+	.navbar {
     background: black;
+  	}
+
+  	.text{
+  		font-size: 180%;
   	}
 
 }
 
 @media screen and (max-width: 620px){
 
-	.bg-img{
+	/*.bg-img{
  	background-size: 0% 0%;
  	background-color: #626262;
   	padding-bottom: 25%;
   	padding-top: 0.5%;
   	border-bottom: 1px solid black;
 
+	}*/
+
+	.bg-img{
+	  background-image: url('../img/bg.jpg');
+	  background-size: 100% 100%;
+	  padding-bottom: 25%;
+	  padding-top: 0.5%;
 	}
 
 	.name{
 	font-family: 'Montserrat-Black', sans-serif;
-	font-size: 250%;
-	color: black;
+	font-size: 120%;
+	color: white;
 	padding-left: 1%;
 	font-weight: bolder;
 
@@ -165,12 +172,13 @@
 
 	.from{
 	font-family: 'Montserrat', sans-serif;
-	color: black;
+	color: white;
 	padding-left: 1.5%;
+	font-size: 120%;
 	font-weight: bolder;
 	}
 
-	nav.navbar {
+	.navbar {
     background: black;
   	}
 

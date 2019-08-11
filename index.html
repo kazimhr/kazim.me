@@ -25,7 +25,7 @@
     <!--Scroll Reveal-->
     <script src="https://unpkg.com/scrollreveal@4"></script>
 	  <script>
-		     ScrollReveal({ duration: 3000 })
+		     ScrollReveal({ duration: 1000 })
 	  </script>
   </head>
   <body style="background-color: #F3EEEE;">
@@ -44,7 +44,7 @@
       <a class="navbar-brand" href="https://kazimhr.github.io/MySite/">
         <img src="img/logosm.png" width="100" style="border-radius: 10%;" alt="">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" id="navBut" onclick="chgCol()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -103,7 +103,7 @@
             <div class="col-lg-6 cont">
               <img class="kaza-pic" src="img/kaza.jpg">
                 <div class="overlay">
-                  <div class="text" style="color: black;">I know you have it on me.</div>
+                  <div class="text" style="color: black; font-size: 150%;">I know you have it on me.</div>
                 </div>
             </div>
           </div>
@@ -118,5 +118,10 @@
 
     <div style="margin-bottom: 10%;"></div>
     <script src="index.js"></script>
+
+      <script type="text/javascript">
+        ScrollReveal().reveal('#About');
+      </script>
+    
   </body>
 </html>

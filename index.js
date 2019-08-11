@@ -6,3 +6,8 @@ $(window).scroll(function(){
             $('.fixed-top').css('background', 'black');
         }
     });
+
+// function chgCol(){
+// 	// document.getElementById("MyElement").classList.add('MyClass');
+// 	document.getElementById("#navBut").classList
+// }
