@@ -28,7 +28,7 @@
 		     ScrollReveal({ duration: 2000 })
 	  </script>
   </head>
-  <body style="background-color: #F3EEEE;">
+  <body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color: #F3EEEE; position: relative;">
   
   <div id="Home">
 
@@ -41,10 +41,10 @@
     <!--Navbar-->
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="Nav-nav">
-      <a class="navbar-brand" href="https://kazimhr.github.io/MySite/">
+      <a class="navbar-brand" href="https://kazimhr.github.io/kazim.me/">
         <img src="img/logosm.png" width="100" style="border-radius: 10%;" alt="">
       </a>
-      <button class="navbar-toggler" id="navBut" onclick="chgCol()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" id="navBut" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -56,22 +56,16 @@
             <a class="nav-link" href="#About">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#Skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Testimonials</a>
+            <a class="nav-link" href="#Testimonials">Testimonials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Conatact me</a>
+            <a class="nav-link" href="#Contact">Contact me</a>
           </li>
         </ul>
       </div>
-         <!--  <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-facebook" style="font-size: 150%;"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-instagram" style="font-size: 150%;"></i></a>
-          </li> -->
     </nav>
 
     <!-- NAME -->
@@ -88,17 +82,12 @@
     <!-- About -->
       <div class="container-fluid">
         <div id="About">
-          <div style="margin-top: 8%;"></div>
+          <div style="padding-top: 8%;"></div>
           <div class="row">
             <div class="col-lg-6">
               <h1 class="Abt-head">About me</h1>
               <p class="Abt-subhead">Always striving for better work.</p>
-              <p class="Abt-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="Abt-para">I'm an on-going undergrad of Computer Science who's interested in making all of his work creative, innovative and reliable. I've started working on web development and I must admit that it has really changed my perspective of how I see things now. The amount of control and liberty you get to play around with things is just impeccable.</p><p class="Abt-para"> I am able to not only implement my skills bluntly but also feel that i have found a medium through which I can find joy as well as providing my services to people. I wish that one day I could use this art to pioneer something magnificent.</p>
             </div>
             <div class="col-lg-6 cont">
               <img class="kaza-pic" src="img/kaza.jpg">
@@ -111,16 +100,129 @@
       </div>  
 
       <!--Skills-->
-        <div>
-          
-        </div><!-- Skills -->
+        <div class="container-fluid">
+          <div id="Skills">
+           <h1 class="Abt-head myskills">My Skills</h1>
+            <div class="row">
+              <div class="col-lg-6">
+               <div class="skill-container">
+                <div class="skills html"><p>HTML5 <span class="percent">90%</span></p></div>
+               </div>
+               <div class="skill-container">
+                <div class="skills css"><p>CSS3 <span class="percent">85%</span></p></div>
+               </div>
+               <div class="skill-container">
+                <div class="skills btap"><p>Bootstrap4 <span class="percent">80%</span></p></div>
+               </div>
+               <div class="skill-container">
+                <div class="skills pg"><p>Programming<span class="percent">80%</span></p></div>
+              </div>
+            </div>
+              <div class="col-lg-6">
+                <img class="skill-img" src="https://media1.giphy.com/media/bF3dIXO7bBBijTZKXj/giphy.gif?cid=790b7611e6b61c4e9db5676408d78187512227cbdd0508bc&rid=giphy.gif">
+              </div>
+            </div><!-- ROW -->
+          </div><!-- Skills -->
+        </div><!-- Container -->
+
+      <!-- Testimonials -->
+        <div id="Testimonials">
+          <div style="padding-top: 8%;"></div>
+          <div class="test-bgImg">
+            <div class="container-fluid">
+              <div class="test-head">
+                What People Are Saying.
+              </div>
+              <p class="test-subhead" style="color: white;">Always striving for better work.</p>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 col-center m-auto">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                      <!-- Carousel indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>   
+                      <!-- Wrapper for carousel items -->
+                      <div class="carousel-inner">
+                        <div class="item carousel-item active">
+                          <div class="img-box"><img src="img/c1.jpg" alt=""></div>
+                          <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                          <p class="overview"><b>Paula Wilson</b>Media Analyst</p>
+                        </div>
+                        <div class="item carousel-item">
+                          <div class="img-box"><img src="img/c2.png" alt=""></div>
+                          <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                          <p class="overview"><b>Antonio Moreno</b>Web Developer</p>
+                        </div>
+                        <div class="item carousel-item">
+                          <div class="img-box"><img src="img/c3.jpg" alt=""></div>
+                          <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                          <p class="overview"><b>Michael Holz</b>Seo Analyst</p>
+                        </div>
+                      </div>
+                      <!-- Carousel controls -->
+                      <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                      </a>
+                      <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- container-fluid -->
+          </div><!-- test-bgImg -->
+        </div><!-- Testimonials -->
+
+        <!-- Contact me -->
+        <div id="Contact">
+          <div style="padding-top: 8%;"></div>
+          <div class="bg-contact">
+            <div class="container-fluid">
+              <h1 class="Abt-head">Get in touch.</h1>
+              <div style="margin-top: 5%;"></div>
+              <div class="row">
+                 <div class="col-lg-4">
+                  <i class="fab fa-skype skype-size"></i><span class="skype-name">kazimhr</span>
+                 </div>
+                 <div class="col-lg-4">
+                  <i class="fas fa-envelope-square skype-size"></i><span class="skype-name">kazimhr@hotmail.com</span>
+                 </div>
+                 <div class="col-lg-4">
+                   <span class="twit-marg"></span><i class="fab fa-twitter skype-size"></i><span class="skype-name">KazimHaider3</span>
+                 </div>
+                 <div style="padding-bottom: 10%;"></div>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Nice day -->
+        <div style="background-color: #262C3A;">
+        <img class="nice-img" id="nic-img"src="img/nice.jpg">
+        </div>
+        <!-- Footer -->
+        
+        <footer>
+          <p style="color: white;">2019 &copy;
+          <a href="https://kazimhr.github.io/kazim.me/"><span style="text-decoration: underline;color: gray;">Kazim Haider</span></a> All rights reservered.  
+          </p>
+          <p style="color: white;">P.s I didn't add the pricing section because i'm charging really less 😉</p>
+        </footer>
+
     
 
-    <div style="margin-bottom: 10%;"></div>
+    
     <script src="index.js"></script>
 
       <script type="text/javascript">
         ScrollReveal().reveal('#About');
+        ScrollReveal().reveal('#Skills');
+        ScrollReveal().reveal('#Testimonials');
+        ScrollReveal().reveal('#nic-img');
       </script>
     
   </body>
