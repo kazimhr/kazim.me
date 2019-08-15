@@ -353,6 +353,21 @@ footer{
 	.twit-marg{
 	margin-right: 0px;
 	}
+	
+	.test-head{
+	padding-top: 5%;
+	font-weight: bolder;
+	font-family: 'Montserrat-Black', sans-serif;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	}
+
+	.test-subhead{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	}
 
 	footer{
 	 background-color: #353131;
@@ -407,6 +422,7 @@ footer{
 	font-family: 'Montserrat-Black', sans-serif;
 	font-size: 2em;
 	color: white;
+	text-align: center;
 	}
 
 	.test-subhead{
