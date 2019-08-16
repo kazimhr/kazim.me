@@ -26,6 +26,11 @@
   font-size: 95%;
 }
 
+.logo-shape{
+	width: 100%;
+	border-radius: 10%;
+}
+
 
 
 /*Name*/
@@ -84,6 +89,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  color: black; 
+  font-size: 150%;
 }
 
 .overlay {
@@ -297,6 +304,9 @@ width: 80%;
     width: 20%;
 }
 
+.niceday{
+	background-color: #262C3A;
+}
 /*Footer*/
 
 footer{
@@ -353,21 +363,6 @@ footer{
 	.twit-marg{
 	margin-right: 0px;
 	}
-	
-	.test-head{
-	padding-top: 5%;
-	font-weight: bolder;
-	font-family: 'Montserrat-Black', sans-serif;
-	font-size: 2em;
-	color: white;
-	text-align: center;
-	}
-
-	.test-subhead{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
-	text-align: center;
-	}
 
 	footer{
 	 background-color: #353131;
@@ -393,7 +388,7 @@ footer{
 
 	.name{
 	font-family: 'Montserrat-Black', sans-serif;
-	font-size: 120%;
+	font-size: 180%;
 	color: white;
 	padding-left: 1%;
 	font-weight: bolder;
@@ -408,27 +403,75 @@ footer{
 	font-weight: bolder;
 	}
 
+	.text {
+	  white-space: nowrap; 
+	  color: white;
+	  font-size: 20px;
+	  position: absolute;
+	  overflow: hidden;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  color: black; 
+	  font-size: 100%;
+	}
+
 	.navbar {
     background: black;
   	}
+
+  	.navbar-toggler-icon{
+  		padding: 0px 0px;
+  	}
+
+  	.logo-shape{
+	width: 60%;
+	border-radius: 15%;
+	}
 
   	.twit-marg{
 	margin-right: 0px;
 	}
 
+	.percent{
+	text-align: right;
+	color: black;
+	position: absolute;
+	right: 4%;
+	}
+
 	.test-head{
-	padding-top: 5%;
+	padding-top: 4%;
 	font-weight: bolder;
 	font-family: 'Montserrat-Black', sans-serif;
 	font-size: 2em;
 	color: white;
-	text-align: center;
 	}
 
 	.test-subhead{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
 	text-align: center;
+	}
+
+	.carousel .testimonial {	
+	padding: 30px 0 10px;
+	font-size: 100%;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	}
+
+	.niceday{
+	width: 100%;
+	background-color: #262C3A;
+	}
+
+	.nice-img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 	}
 
 	footer{
