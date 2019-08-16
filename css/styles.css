@@ -473,6 +473,10 @@ footer{
     margin-right: auto;
     width: 30%;
 	}
+	
+	.testEndMarg{
+	margin-bottom:2%;
+	}
 
 	footer{
 	 background-color: #353131;
